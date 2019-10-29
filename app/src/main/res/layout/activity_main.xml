@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--Logout Button-->
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editName"
+
+        android:text="@string/search" />
+
+    <WebView
+        android:id="@+id/wb"
+        android:layout_below="@id/btn_sign_out"
+
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+    </WebView>
+
+    <WebView
+        android:id="@+id/wb2"
+        android:layout_below="@id/wb"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <WebView
+        android:id="@+id/wb3"
+        android:layout_below="@id/wb2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <Button
+        android:id="@+id/btn_sign_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button"
+        android:text="@string/logout" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingBottom="40dp"
+        android:gravity = "center"
+        android:text="" />
+
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">eai1</string>
+    <string name="facebook_application_id" translatable="false">802066270213058</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb802066270213058</string>
+    <string name="logout">logout</string>
+    <string name="search">search</string>
+    <string name="twitter_consumer_key" translatable="false">muccQdUirCDlj3iRJGxUGNFd9</string>
+    <string name="twitter_consumer_secret" translatable="false">il7hxoDMxQyRCSO6J8bNtl4g0CIJ0TE26xhTYjwCYHzUz5dBlH</string>
+</resources>
